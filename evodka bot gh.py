@@ -78,7 +78,7 @@ async def on_raw_reaction_add(payload):
     
             
 async def onRoleRemoveAction(myBot, myPayload):
-    RRMESSAGEID = 819582773547106304
+    RRMESSAGEID = ''
     message_id = myPayload.message_id
     if message_id == RRMESSAGEID:
         guild = myBot.get_guild(IDSERVER)
